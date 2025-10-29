@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+
+# Logs and cache
+*.log
+logs/
+cache/
+*.cache
+*.tmp
+logs/
+context_email_classifier/
+results/
+# VSCode and other IDE settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Model outputs
+/results/
+/optimized_model/
+*.bin
+*.xml
+*.onnx
+
+# Hugging Face cache
+~/.cache/
+.huggingface/
+transformers_cache/
+datasets_cache/
+tokenizers_cache/
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Temporary data
+tmp/
+temp/
+__temp__/
+
+# Flask / FastAPI specific
+instance/
+*.db
+*.sqlite3
+
+# Node (if using frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
