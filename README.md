@@ -5,6 +5,24 @@ It can detect whether an email is Urgent, Work-related, Informational or Promoti
 
 Built with Streamlit for a seamless web interface and optionally optimized with OpenVINO for lightning-fast inference.
 
+## 🖼️ Model Output
+
+Here’s how the **Urgent** email classification looks:
+
+![Urgent Email](images/Urgent.png)
+
+Here’s an example of a **Work-related** email:
+
+![Work-related Email](images/Workrelated.png)
+
+Here’s a **Promotional** email sample:
+
+![Promotional Email](images/Promotional.png)
+
+And finally, an **Informational** email example:
+
+![Informational Email](images/Informational.png)
+
 #### 🧠 Tech Stack
 ##### Frontend	-  Streamlit
 ##### Backend / ML	- PyTorch, Transformers (Hugging Face)
