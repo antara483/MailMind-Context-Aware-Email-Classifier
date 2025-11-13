@@ -5,6 +5,9 @@ It can detect whether an email is Urgent, Work-related, Informational or Promoti
 
 Built with Streamlit for a seamless web interface and optionally optimized with OpenVINO for lightning-fast inference.
 
+**The fine-tuned DistilBERT email context classifier achieved an accuracy of 88.66% on the test set, 
+reliably classifying emails into categories like Promotional, Work-related, Urgent, and Informational.**
+
 ## 🖼️ Model Output
 
 Here’s how the **Urgent** email classification looks:
